@@ -1,4 +1,4 @@
-package com.openclassroms.webapp.webapp.model;
+package com.openclassrooms.webapp.model;
 
 import lombok.Data;
 
