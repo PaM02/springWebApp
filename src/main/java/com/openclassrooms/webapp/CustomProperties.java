@@ -10,6 +10,6 @@ import lombok.Data;
 @ConfigurationProperties(prefix = "com.openclassrooms.webapp")
 public class CustomProperties {
 
-    private String ApiUrl;
+    private String apiUrl;
 
 }
