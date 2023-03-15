@@ -113,8 +113,7 @@ public class EmployeeProxy {
     /**
      * Delete an employee using exchange method of RestTemplate
      * instead of delete method in order to log the response status code.
-     * 
-     * @param e The employee to delete
+     *
      */
     public void deleteEmployee(int id) {
         String baseApiUrl = props.getApiUrl();
